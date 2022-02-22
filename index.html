@@ -12,16 +12,17 @@
         <div class="geradorDeSenha">
             <h1>GERADOR DE SENHA</h1>
             <div class="span-input-btn">
-                <span>Tamanho caracteres</span>
-                <input class="slider" type="range" name="">
-                <button>Gerar senha</button>
+                <span>Tamanho <span id="valor"></span> caracteres</span>
+                <input class="slider" id="slider" min="5" max="25" type="range" name="">
+                <button id="btn" onclick="generatePassword()">Gerar senha</button>
             </div>
         </div>
-        <div class="senha-spans">
+        <div id="container-password" onclick="copyPassword()" class="senha-spans hide">
             <span class="txt">Sua senha gerada foi:</span>
-            <span class="password">1234567891234567891234567</span>
-            <span class="clickpassword">Clique na senha para copiar</span>
+            <span id="password" class="password">1234567891234567891234567</span>
+            <span id="clickpassword" class="clickpassword">Clique na senha para copiar✌</span>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
