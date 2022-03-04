@@ -1,16 +1,15 @@
-Gerador de Senha
-!NPM
+# Gerador de Senha
+![NPM](https://img.shields.io/npm/l/react)
 
 Sobre o projeto
 Este repositório foi criado para colocar em prática os conhecimentos adquiridos nos cursos de HTML, CSS e Javascript do <b>Sujeito programador</b> de um projeto <b>Frontend Web</b>.
 
 O objetivo do projeto foi recriar a interface de um gerador de senhas utilizando tecnologias simples como <b>HTML5, CSS3 e JavaScript</b>, além de englobar os conceitos de: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox.
 
-Layout do projeto
-WEB
+Layout do projeto WEB
 ![Prévia da Imagem](previaWeb.PNG)
 
-MOBILE
+Layout do projeto MOBILE
 ![Prévia da Imagem](previaMobile.PNG)
 
 Tecnologias utilizadas
